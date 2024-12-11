@@ -1,5 +1,22 @@
 .topbar {
-    min-width: 100%;
-    min-height: 50px;
+    min-width: 100vh;
+    min-height: 18vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+
+}
+.sidebar {
+    width: 4vw;
+    min-height: 64vh;
+    background-color: rgb(58, 42, 42);
+}
+.footer {
+    min-width: 100vh;
+    min-height: 18vh;
+    background-color: black;
+    display: flex;
+
 }

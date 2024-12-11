@@ -1,6 +1,8 @@
 .home {
     min-height: 100vh;
-    min-width: 100vh;
-    border: 6px solid black;
+    min-width: 100vw;
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

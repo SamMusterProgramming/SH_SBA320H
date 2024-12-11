@@ -5,13 +5,14 @@ import Home from './pages/Home';
 import { Route, Router, Routes } from 'react-router-dom';
 import Cards from './pages/Cards';
 import HomeLayout from './pages/HomeLayout';
+import { shuffleCard } from './ApiCalls';
 
 
 
 function App() {
 
   useEffect(() => {
-
+    shuffleCard()
   }, [])
 
   return (
