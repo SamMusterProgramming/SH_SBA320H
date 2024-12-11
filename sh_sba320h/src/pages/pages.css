@@ -1,0 +1,6 @@
+.home {
+    min-height: 100vh;
+    min-width: 100vh;
+    border: 6px solid black;
+    background-color: aquamarine;
+}
